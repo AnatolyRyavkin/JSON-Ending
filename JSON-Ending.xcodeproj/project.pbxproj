@@ -13,6 +13,8 @@
 		FDDE4B0323CD0C3D003D7F4F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FDDE4B0223CD0C3D003D7F4F /* Assets.xcassets */; };
 		FDDE4B0623CD0C3D003D7F4F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FDDE4B0423CD0C3D003D7F4F /* LaunchScreen.storyboard */; };
 		FDDE4B0923CD0C3D003D7F4F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FDDE4B0823CD0C3D003D7F4F /* main.m */; };
+		FDDE4B1123CD0F1F003D7F4F /* AVTableVievController.m in Sources */ = {isa = PBXBuildFile; fileRef = FDDE4B1023CD0F1F003D7F4F /* AVTableVievController.m */; };
+		FDDE4B1423CD1050003D7F4F /* menagerJSON.m in Sources */ = {isa = PBXBuildFile; fileRef = FDDE4B1323CD1050003D7F4F /* menagerJSON.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,10 @@
 		FDDE4B0523CD0C3D003D7F4F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FDDE4B0723CD0C3D003D7F4F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FDDE4B0823CD0C3D003D7F4F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FDDE4B0F23CD0F1F003D7F4F /* AVTableVievController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AVTableVievController.h; sourceTree = "<group>"; };
+		FDDE4B1023CD0F1F003D7F4F /* AVTableVievController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AVTableVievController.m; sourceTree = "<group>"; };
+		FDDE4B1223CD1050003D7F4F /* menagerJSON.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = menagerJSON.h; sourceTree = "<group>"; };
+		FDDE4B1323CD1050003D7F4F /* menagerJSON.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = menagerJSON.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +68,10 @@
 				FDDE4AFA23CD0BEA003D7F4F /* AppDelegate.m */,
 				FDDE4AFC23CD0BEA003D7F4F /* ViewController.h */,
 				FDDE4AFD23CD0BEA003D7F4F /* ViewController.m */,
+				FDDE4B1223CD1050003D7F4F /* menagerJSON.h */,
+				FDDE4B1323CD1050003D7F4F /* menagerJSON.m */,
+				FDDE4B0F23CD0F1F003D7F4F /* AVTableVievController.h */,
+				FDDE4B1023CD0F1F003D7F4F /* AVTableVievController.m */,
 				FDDE4AFF23CD0BEA003D7F4F /* Main.storyboard */,
 				FDDE4B0223CD0C3D003D7F4F /* Assets.xcassets */,
 				FDDE4B0423CD0C3D003D7F4F /* LaunchScreen.storyboard */,
@@ -141,9 +151,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FDDE4B1423CD1050003D7F4F /* menagerJSON.m in Sources */,
 				FDDE4AFE23CD0BEA003D7F4F /* ViewController.m in Sources */,
 				FDDE4B0923CD0C3D003D7F4F /* main.m in Sources */,
 				FDDE4AFB23CD0BEA003D7F4F /* AppDelegate.m in Sources */,
+				FDDE4B1123CD0F1F003D7F4F /* AVTableVievController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
