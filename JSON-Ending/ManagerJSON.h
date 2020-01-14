@@ -1,8 +1,8 @@
 //
-//  menagerJSON.h
+//  ManagerJSON.h
 //  JSON-Ending
 //
-//  Created by Anatoly Ryavkin on 13.01.2020.
+//  Created by Anatoly Ryavkin on 14.01.2020.
 //  Copyright © 2020 AnatolyRyavkin. All rights reserved.
 //
 
@@ -10,9 +10,9 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface menagerJSON : NSObject
+@interface ManagerJSON : NSObject
 
-+(menagerJSON*)sharedManagerJSON;
++(ManagerJSON*)sharedManagerJSON;
 
 @end
 

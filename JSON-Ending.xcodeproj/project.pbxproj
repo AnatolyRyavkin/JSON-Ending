@@ -7,31 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FD09D23823CE285100B5C669 /* ManagerJSON.m in Sources */ = {isa = PBXBuildFile; fileRef = FD09D23723CE285100B5C669 /* ManagerJSON.m */; };
 		FDDE4AFB23CD0BEA003D7F4F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FDDE4AFA23CD0BEA003D7F4F /* AppDelegate.m */; };
-		FDDE4AFE23CD0BEA003D7F4F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FDDE4AFD23CD0BEA003D7F4F /* ViewController.m */; };
 		FDDE4B0123CD0BEA003D7F4F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FDDE4AFF23CD0BEA003D7F4F /* Main.storyboard */; };
 		FDDE4B0323CD0C3D003D7F4F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FDDE4B0223CD0C3D003D7F4F /* Assets.xcassets */; };
 		FDDE4B0623CD0C3D003D7F4F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FDDE4B0423CD0C3D003D7F4F /* LaunchScreen.storyboard */; };
 		FDDE4B0923CD0C3D003D7F4F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FDDE4B0823CD0C3D003D7F4F /* main.m */; };
-		FDDE4B1123CD0F1F003D7F4F /* AVTableVievController.m in Sources */ = {isa = PBXBuildFile; fileRef = FDDE4B1023CD0F1F003D7F4F /* AVTableVievController.m */; };
-		FDDE4B1423CD1050003D7F4F /* menagerJSON.m in Sources */ = {isa = PBXBuildFile; fileRef = FDDE4B1323CD1050003D7F4F /* menagerJSON.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		FD09D23623CE285100B5C669 /* ManagerJSON.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ManagerJSON.h; sourceTree = "<group>"; };
+		FD09D23723CE285100B5C669 /* ManagerJSON.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ManagerJSON.m; sourceTree = "<group>"; };
 		FDDE4AF623CD0BE9003D7F4F /* JSON-Ending.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "JSON-Ending.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FDDE4AF923CD0BEA003D7F4F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		FDDE4AFA23CD0BEA003D7F4F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		FDDE4AFC23CD0BEA003D7F4F /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		FDDE4AFD23CD0BEA003D7F4F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		FDDE4B0023CD0BEA003D7F4F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		FDDE4B0223CD0C3D003D7F4F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FDDE4B0523CD0C3D003D7F4F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FDDE4B0723CD0C3D003D7F4F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FDDE4B0823CD0C3D003D7F4F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		FDDE4B0F23CD0F1F003D7F4F /* AVTableVievController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AVTableVievController.h; sourceTree = "<group>"; };
-		FDDE4B1023CD0F1F003D7F4F /* AVTableVievController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AVTableVievController.m; sourceTree = "<group>"; };
-		FDDE4B1223CD1050003D7F4F /* menagerJSON.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = menagerJSON.h; sourceTree = "<group>"; };
-		FDDE4B1323CD1050003D7F4F /* menagerJSON.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = menagerJSON.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,14 +58,10 @@
 		FDDE4AF823CD0BE9003D7F4F /* JSON-Ending */ = {
 			isa = PBXGroup;
 			children = (
+				FD09D23623CE285100B5C669 /* ManagerJSON.h */,
+				FD09D23723CE285100B5C669 /* ManagerJSON.m */,
 				FDDE4AF923CD0BEA003D7F4F /* AppDelegate.h */,
 				FDDE4AFA23CD0BEA003D7F4F /* AppDelegate.m */,
-				FDDE4AFC23CD0BEA003D7F4F /* ViewController.h */,
-				FDDE4AFD23CD0BEA003D7F4F /* ViewController.m */,
-				FDDE4B1223CD1050003D7F4F /* menagerJSON.h */,
-				FDDE4B1323CD1050003D7F4F /* menagerJSON.m */,
-				FDDE4B0F23CD0F1F003D7F4F /* AVTableVievController.h */,
-				FDDE4B1023CD0F1F003D7F4F /* AVTableVievController.m */,
 				FDDE4AFF23CD0BEA003D7F4F /* Main.storyboard */,
 				FDDE4B0223CD0C3D003D7F4F /* Assets.xcassets */,
 				FDDE4B0423CD0C3D003D7F4F /* LaunchScreen.storyboard */,
@@ -151,11 +141,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FDDE4B1423CD1050003D7F4F /* menagerJSON.m in Sources */,
-				FDDE4AFE23CD0BEA003D7F4F /* ViewController.m in Sources */,
 				FDDE4B0923CD0C3D003D7F4F /* main.m in Sources */,
+				FD09D23823CE285100B5C669 /* ManagerJSON.m in Sources */,
 				FDDE4AFB23CD0BEA003D7F4F /* AppDelegate.m in Sources */,
-				FDDE4B1123CD0F1F003D7F4F /* AVTableVievController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
