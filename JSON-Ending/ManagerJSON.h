@@ -12,6 +12,9 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface ManagerJSON : NSObject
 
+@property NSArray *arrayJSONInput;
+@property NSArray *arrayJSONReady;
+
 +(ManagerJSON*)sharedManagerJSON;
 
 @end

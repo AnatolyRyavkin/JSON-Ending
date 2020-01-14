@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		FD09D23823CE285100B5C669 /* ManagerJSON.m in Sources */ = {isa = PBXBuildFile; fileRef = FD09D23723CE285100B5C669 /* ManagerJSON.m */; };
+		FD09D23B23CE37A800B5C669 /* AVViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FD09D23A23CE37A800B5C669 /* AVViewController.m */; };
 		FDDE4AFB23CD0BEA003D7F4F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FDDE4AFA23CD0BEA003D7F4F /* AppDelegate.m */; };
 		FDDE4B0123CD0BEA003D7F4F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FDDE4AFF23CD0BEA003D7F4F /* Main.storyboard */; };
 		FDDE4B0323CD0C3D003D7F4F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FDDE4B0223CD0C3D003D7F4F /* Assets.xcassets */; };
@@ -18,6 +19,8 @@
 /* Begin PBXFileReference section */
 		FD09D23623CE285100B5C669 /* ManagerJSON.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ManagerJSON.h; sourceTree = "<group>"; };
 		FD09D23723CE285100B5C669 /* ManagerJSON.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ManagerJSON.m; sourceTree = "<group>"; };
+		FD09D23923CE37A800B5C669 /* AVViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AVViewController.h; sourceTree = "<group>"; };
+		FD09D23A23CE37A800B5C669 /* AVViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AVViewController.m; sourceTree = "<group>"; };
 		FDDE4AF623CD0BE9003D7F4F /* JSON-Ending.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "JSON-Ending.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FDDE4AF923CD0BEA003D7F4F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		FDDE4AFA23CD0BEA003D7F4F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -60,6 +63,8 @@
 			children = (
 				FD09D23623CE285100B5C669 /* ManagerJSON.h */,
 				FD09D23723CE285100B5C669 /* ManagerJSON.m */,
+				FD09D23923CE37A800B5C669 /* AVViewController.h */,
+				FD09D23A23CE37A800B5C669 /* AVViewController.m */,
 				FDDE4AF923CD0BEA003D7F4F /* AppDelegate.h */,
 				FDDE4AFA23CD0BEA003D7F4F /* AppDelegate.m */,
 				FDDE4AFF23CD0BEA003D7F4F /* Main.storyboard */,
@@ -144,6 +149,7 @@
 				FDDE4B0923CD0C3D003D7F4F /* main.m in Sources */,
 				FD09D23823CE285100B5C669 /* ManagerJSON.m in Sources */,
 				FDDE4AFB23CD0BEA003D7F4F /* AppDelegate.m in Sources */,
+				FD09D23B23CE37A800B5C669 /* AVViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

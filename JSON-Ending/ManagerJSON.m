@@ -19,9 +19,14 @@
     dispatch_once(&onceToken, ^{
         manager = [[ManagerJSON alloc]init];
 
-
-
     });
+
+    NSString* pathFileBase = @"/Users/ryavkinto/Documents/baseEnglishDictionary/fileBase.txt";
+
+    NSArray *array = [NSArray arrayWithContentsOfFile: pathFileBase];
+
+    manager.arrayJSONInput = array;
+
     return manager;
 }
 
